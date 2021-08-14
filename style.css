@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("images/background2.png");
+    color: white;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    margin: 10%;
+}
+
+h1 {
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 1.6rem;
+    font-weight: 200;
+    letter-spacing: 3px;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+}
+
+section {
+    padding: 3rem 2rem;
+    clear: both;
+}
+
+h2 {
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    border-top: 2px solid;
+}
+
+p {
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+}
+
+img {
+    width: 100px;
+}
+
+figure {
+    float: left;
+    margin: 0;
+    padding: 5px;
+}
+
+#StirringPower {
+    display: none;
+}
+
+#AcceptingPower {
+    display: none;
+}
