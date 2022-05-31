@@ -72,10 +72,26 @@ p {
 }
 
 .book-tiles article {
-    background-color: rgb(6, 41, 15);
+    border: 2px solid rgb(6, 41, 15, 0.3);
+    border-radius: 5px;
+    color:rgb(6, 41, 15, 0.3);
     width: 44%;
     margin: 2rem;
     padding: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: border 0.5s, color 0.5s;
+}
+
+.book-tiles article:hover {
+    border: 2px solid rgb(6, 41, 15);
+    color:rgb(6, 41, 15);
+}
+
+@media screen and (max-width: 600px) {
+    .book-tiles article {
+        width: 68%;
+    }
 }
 
 h3 {
@@ -87,4 +103,27 @@ img {
     width: 200px;
     float: left;
     margin-right: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+    img {
+        height: 200px;
+        width: 135px;
+        float: none;
+    }
+}
+
+footer {
+    background-color: rgb(6, 41, 15);
+}
+
+.footer-buttons {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+button {
+    margin: 2rem;
+    padding: 5px;
 }
